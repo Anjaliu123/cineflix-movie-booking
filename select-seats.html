@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Seats - Cineflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="seat-page">
+  <div class="container">
+    <a href="index.html" class="back-btn">← Back</a>
+    <h1 id="movie-name">SELECT YOUR SEATS</h1>
+    
+    <div class="screen">SCREEN THIS WAY</div>
+
+    <ul class="showcase">
+      <li><div class="seat"></div><small>Available</small></li>
+      <li><div class="seat selected"></div><small>Selected</small></li>
+      <li><div class="seat booked"></div><small>Booked</small></li>
+    </ul>
+
+    <div class="seat-layout">
+      <!-- A Row -->
+      <div class="row">
+        <span class="row-label">A</span>
+        <div class="seat" data-seat="A1"></div>
+        <div class="seat" data-seat="A2"></div>
+        <div class="seat booked" data-seat="A3"></div>
+        <div class="seat" data-seat="A4"></div>
+        <div class="seat" data-seat="A5"></div>
+        <div class="seat" data-seat="A6"></div>
+        <div class="seat" data-seat="A7"></div>
+        <div class="seat" data-seat="A8"></div>
+      </div>
+      <!-- B Row -->
+      <div class="row">
+        <span class="row-label">B</span>
+        <div class="seat" data-seat="B1"></div>
+        <div class="seat" data-seat="B2"></div>
+        <div class="seat" data-seat="B3"></div>
+        <div class="seat" data-seat="B4"></div>
+        <div class="seat booked" data-seat="B5"></div>
+        <div class="seat booked" data-seat="B6"></div>
+        <div class="seat" data-seat="B7"></div>
+        <div class="seat" data-seat="B8"></div>
+      </div>
+      <!-- C Row -->
+      <div class="row">
+        <span class="row-label">C</span>
+        <div class="seat" data-seat="C1"></div>
+        <div class="seat" data-seat="C2"></div>
+        <div class="seat" data-seat="C3"></div>
+        <div class="seat" data-seat="C4"></div>
+        <div class="seat" data-seat="C5"></div>
+        <div class="seat" data-seat="C6"></div>
+        <div class="seat" data-seat="C7"></div>
+        <div class="seat" data-seat="C8"></div>
+      </div>
+    </div>
+
+    <div class="booking-summary">
+      <p>You have selected <span id="count">0</span> seats</p>
+      <p>Total: ₹<span id="total">0</span></p>
+      <button id="pay-btn" disabled>Proceed to Pay ₹0</button>
+    </div>
+  </div>
+
+  <!-- <script src="https://checkout.razorpay.com/v1/checkout.js"></script> -->
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
