@@ -12,7 +12,7 @@ A responsive movie ticket booking website with seat selection and payment flow.
 HTML5, CSS3, JavaScript
 
 ### 🔗 Live Demo
-Coming soon...
+**[✨ Click here to view Cineflix Live](https://lustrous-maamoul-86a662.netlify.app/)**
 
 ### 📸 Screenshots
 Coming soon...
